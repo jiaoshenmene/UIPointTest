@@ -1,6 +1,6 @@
 //
-//  YYModelStudy.h
-//  YYModelStudy
+//  GGGCDStudy.h
+//  GGGCDStudy
 //
 //  Created by dujia on 16/7/14.
 //  Copyright © 2016年 sogou. All rights reserved.
@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface YYModelStudy : NSObject
-
-- (void)test;
-
+@interface GGGCDStudy : NSObject
++(void) test;
 
 @end

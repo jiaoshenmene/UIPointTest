@@ -10,7 +10,7 @@
 		2CBBC2CA8899AA4EAAF232FF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB3F324236099F57F08DF54 /* libPods.a */; };
 		8DFE885B1CF6AFA600849CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE885A1CF6AFA600849CA2 /* main.m */; };
 		8DFE885E1CF6AFA600849CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE885D1CF6AFA600849CA2 /* AppDelegate.m */; };
-		8DFE88611CF6AFA600849CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE88601CF6AFA600849CA2 /* ViewController.m */; };
+		8DFE88611CF6AFA600849CA2 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE88601CF6AFA600849CA2 /* ViewController.mm */; };
 		8DFE88641CF6AFA600849CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE88621CF6AFA600849CA2 /* Main.storyboard */; };
 		8DFE88661CF6AFA600849CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE88651CF6AFA600849CA2 /* Assets.xcassets */; };
 		8DFE88691CF6AFA600849CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE88671CF6AFA600849CA2 /* LaunchScreen.storyboard */; };
@@ -20,6 +20,16 @@
 		8DFE88901CF6B21B00849CA2 /* 001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE888F1CF6B21B00849CA2 /* 001.jpeg */; };
 		A11E71C01D3734F9002C07C7 /* YYModelStudy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11E71BF1D3734F9002C07C7 /* YYModelStudy.h */; };
 		A11E71C21D3734F9002C07C7 /* YYModelStudy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71C11D3734F9002C07C7 /* YYModelStudy.m */; };
+		A11E71C81D37361D002C07C7 /* GGModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71C71D37361D002C07C7 /* GGModeTest.m */; };
+		A11E71C91D373622002C07C7 /* GGModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71C71D37361D002C07C7 /* GGModeTest.m */; };
+		A11E71E31D37753F002C07C7 /* YYModelStudy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71C11D3734F9002C07C7 /* YYModelStudy.m */; };
+		A11E71E61D377728002C07C7 /* GGModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71E51D377728002C07C7 /* GGModelArray.m */; };
+		A11E71E71D377728002C07C7 /* GGModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71E51D377728002C07C7 /* GGModelArray.m */; };
+		A11E71EA1D377738002C07C7 /* GGModelDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71E91D377738002C07C7 /* GGModelDictionary.m */; };
+		A11E71EB1D377738002C07C7 /* GGModelDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71E91D377738002C07C7 /* GGModelDictionary.m */; };
+		A11E71F31D379530002C07C7 /* GGGCDStudy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11E71F21D379530002C07C7 /* GGGCDStudy.h */; };
+		A11E71F51D379530002C07C7 /* GGGCDStudy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71F41D379530002C07C7 /* GGGCDStudy.m */; };
+		A11E71F91D37953A002C07C7 /* GGGCDStudy.m in Sources */ = {isa = PBXBuildFile; fileRef = A11E71F41D379530002C07C7 /* GGGCDStudy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +60,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A11E71EE1D379530002C07C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A11E71F31D379530002C07C7 /* GGGCDStudy.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +80,7 @@
 		8DFE885C1CF6AFA600849CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DFE885D1CF6AFA600849CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8DFE885F1CF6AFA600849CA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8DFE88601CF6AFA600849CA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DFE88601CF6AFA600849CA2 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		8DFE88631CF6AFA600849CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DFE88651CF6AFA600849CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DFE88681CF6AFA600849CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,6 +97,15 @@
 		A11E71BD1D3734F9002C07C7 /* libYYModelStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYModelStudy.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11E71BF1D3734F9002C07C7 /* YYModelStudy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModelStudy.h; sourceTree = "<group>"; };
 		A11E71C11D3734F9002C07C7 /* YYModelStudy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYModelStudy.m; sourceTree = "<group>"; };
+		A11E71C61D37361D002C07C7 /* GGModeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGModeTest.h; sourceTree = "<group>"; };
+		A11E71C71D37361D002C07C7 /* GGModeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGModeTest.m; sourceTree = "<group>"; };
+		A11E71E41D377728002C07C7 /* GGModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGModelArray.h; sourceTree = "<group>"; };
+		A11E71E51D377728002C07C7 /* GGModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGModelArray.m; sourceTree = "<group>"; };
+		A11E71E81D377738002C07C7 /* GGModelDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGModelDictionary.h; sourceTree = "<group>"; };
+		A11E71E91D377738002C07C7 /* GGModelDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGModelDictionary.m; sourceTree = "<group>"; };
+		A11E71F01D379530002C07C7 /* libGGGCDStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGGGCDStudy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11E71F21D379530002C07C7 /* GGGCDStudy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGGCDStudy.h; sourceTree = "<group>"; };
+		A11E71F41D379530002C07C7 /* GGGCDStudy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGGCDStudy.m; sourceTree = "<group>"; };
 		CFB3F324236099F57F08DF54 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,6 +139,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A11E71ED1D379530002C07C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -129,6 +165,7 @@
 				8DFE88721CF6AFA600849CA2 /* UIPointTestTests */,
 				8DFE887D1CF6AFA600849CA2 /* UIPointTestUITests */,
 				A11E71BE1D3734F9002C07C7 /* YYModelStudy */,
+				A11E71F11D379530002C07C7 /* GGGCDStudy */,
 				8DFE88571CF6AFA600849CA2 /* Products */,
 				40A25BBA4317EE2C2B77CE9D /* Pods */,
 				F891BCC739A72F76E6E04AB5 /* Frameworks */,
@@ -142,6 +179,7 @@
 				8DFE886F1CF6AFA600849CA2 /* UIPointTestTests.xctest */,
 				8DFE887A1CF6AFA600849CA2 /* UIPointTestUITests.xctest */,
 				A11E71BD1D3734F9002C07C7 /* libYYModelStudy.a */,
+				A11E71F01D379530002C07C7 /* libGGGCDStudy.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +190,7 @@
 				8DFE885C1CF6AFA600849CA2 /* AppDelegate.h */,
 				8DFE885D1CF6AFA600849CA2 /* AppDelegate.m */,
 				8DFE885F1CF6AFA600849CA2 /* ViewController.h */,
-				8DFE88601CF6AFA600849CA2 /* ViewController.m */,
+				8DFE88601CF6AFA600849CA2 /* ViewController.mm */,
 				8DFE888C1CF6AFCA00849CA2 /* MViewPointTest.h */,
 				8DFE888D1CF6AFCA00849CA2 /* MViewPointTest.m */,
 				8DFE888F1CF6B21B00849CA2 /* 001.jpeg */,
@@ -194,10 +232,33 @@
 		A11E71BE1D3734F9002C07C7 /* YYModelStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A11E71E21D376CC9002C07C7 /* GGChildModel */,
 				A11E71BF1D3734F9002C07C7 /* YYModelStudy.h */,
 				A11E71C11D3734F9002C07C7 /* YYModelStudy.m */,
+				A11E71C61D37361D002C07C7 /* GGModeTest.h */,
+				A11E71C71D37361D002C07C7 /* GGModeTest.m */,
 			);
 			path = YYModelStudy;
+			sourceTree = "<group>";
+		};
+		A11E71E21D376CC9002C07C7 /* GGChildModel */ = {
+			isa = PBXGroup;
+			children = (
+				A11E71E41D377728002C07C7 /* GGModelArray.h */,
+				A11E71E51D377728002C07C7 /* GGModelArray.m */,
+				A11E71E81D377738002C07C7 /* GGModelDictionary.h */,
+				A11E71E91D377738002C07C7 /* GGModelDictionary.m */,
+			);
+			path = GGChildModel;
+			sourceTree = "<group>";
+		};
+		A11E71F11D379530002C07C7 /* GGGCDStudy */ = {
+			isa = PBXGroup;
+			children = (
+				A11E71F21D379530002C07C7 /* GGGCDStudy.h */,
+				A11E71F41D379530002C07C7 /* GGGCDStudy.m */,
+			);
+			path = GGGCDStudy;
 			sourceTree = "<group>";
 		};
 		F891BCC739A72F76E6E04AB5 /* Frameworks */ = {
@@ -284,6 +345,23 @@
 			productReference = A11E71BD1D3734F9002C07C7 /* libYYModelStudy.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		A11E71EF1D379530002C07C7 /* GGGCDStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11E71F61D379530002C07C7 /* Build configuration list for PBXNativeTarget "GGGCDStudy" */;
+			buildPhases = (
+				A11E71EC1D379530002C07C7 /* Sources */,
+				A11E71ED1D379530002C07C7 /* Frameworks */,
+				A11E71EE1D379530002C07C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGGCDStudy;
+			productName = GGGCDStudy;
+			productReference = A11E71F01D379530002C07C7 /* libGGGCDStudy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -311,6 +389,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = WRM5754N86;
 					};
+					A11E71EF1D379530002C07C7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WRM5754N86;
+					};
 				};
 			};
 			buildConfigurationList = 8DFE88511CF6AFA600849CA2 /* Build configuration list for PBXProject "UIPointTest" */;
@@ -330,6 +412,7 @@
 				8DFE886E1CF6AFA600849CA2 /* UIPointTestTests */,
 				8DFE88791CF6AFA600849CA2 /* UIPointTestUITests */,
 				A11E71BC1D3734F9002C07C7 /* YYModelStudy */,
+				A11E71EF1D379530002C07C7 /* GGGCDStudy */,
 			);
 		};
 /* End PBXProject section */
@@ -415,9 +498,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DFE88611CF6AFA600849CA2 /* ViewController.m in Sources */,
+				8DFE88611CF6AFA600849CA2 /* ViewController.mm in Sources */,
 				8DFE888E1CF6AFCA00849CA2 /* MViewPointTest.m in Sources */,
+				A11E71C91D373622002C07C7 /* GGModeTest.m in Sources */,
+				A11E71EA1D377738002C07C7 /* GGModelDictionary.m in Sources */,
+				A11E71F91D37953A002C07C7 /* GGGCDStudy.m in Sources */,
+				A11E71E31D37753F002C07C7 /* YYModelStudy.m in Sources */,
 				8DFE885E1CF6AFA600849CA2 /* AppDelegate.m in Sources */,
+				A11E71E61D377728002C07C7 /* GGModelArray.m in Sources */,
 				8DFE885B1CF6AFA600849CA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +530,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11E71E71D377728002C07C7 /* GGModelArray.m in Sources */,
+				A11E71C81D37361D002C07C7 /* GGModeTest.m in Sources */,
 				A11E71C21D3734F9002C07C7 /* YYModelStudy.m in Sources */,
+				A11E71EB1D377738002C07C7 /* GGModelDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11E71EC1D379530002C07C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11E71F51D379530002C07C7 /* GGGCDStudy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +752,24 @@
 			};
 			name = Release;
 		};
+		A11E71F71D379530002C07C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A11E71F81D379530002C07C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,6 +814,15 @@
 			buildConfigurations = (
 				A11E71C31D3734F9002C07C7 /* Debug */,
 				A11E71C41D3734F9002C07C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11E71F61D379530002C07C7 /* Build configuration list for PBXNativeTarget "GGGCDStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11E71F71D379530002C07C7 /* Debug */,
+				A11E71F81D379530002C07C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

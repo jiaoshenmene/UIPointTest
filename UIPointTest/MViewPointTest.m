@@ -15,14 +15,16 @@
 {
     if (self = [super initWithFrame:frame]) {
     
-        for (int i = 0; i < 25; i++) {
-            
-        }
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notification133) name:@"notification12" object:nil];
         
     }
     return self;
 }
 
+- (void)notification133
+{
+    NSLog(@"notification0000000000");
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
